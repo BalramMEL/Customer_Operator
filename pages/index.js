@@ -6,6 +6,7 @@ import { useSelector, useDispatch  } from 'react-redux';
 import { toggleChangeAction, deleteAction } from '../redux/reducer';
 import { deleteUser, getUsers } from '../lib/helper';
 import { useQueryClient } from 'react-query';
+import { Text } from "@nextui-org/react";
  
 export default function Home() {
 
@@ -44,11 +45,23 @@ export default function Home() {
 
 
       <main className="py-5 px-1 ">
-        <h1 className="text-lg md:text-4xl text-center text-neutral-500 font-bold py-10">Customer Management</h1>
+        {/* <h1 className="text-lg md:text-4xl text-center text-neutral-500 font-bold py-10">Customer Management</h1> */}
+
+        <Text
+        h1
+        size={60}
+        css={{
+          textGradient: "45deg, $blue800 10%, $pink600 60%",
+          textAlign: "center"
+        }}
+        weight="bold"
+        >
+          Customer Bookings
+      </Text>
         
-        <div className="container mx-auto flex justify-between py-5 border-b">
+        <div className="container mx-auto flex justify-between mt-6 pt-10 border-t border-gray-300 py-5 ">
           <div className="left flex gap-3">
-            <button onClick={handler} className="flex bg-indigo-500 transition text-white px-4 py-2 border rounded-md hover:bg-gray-50 hover:border-indigo-500 hover:text-gray-700">
+            <button onClick={handler} className="flex bg-indigo-500 transition text-white px-4 py-3 rounded-md shadow-lg shadow-indigo-500/50 hover:bg-gray-50 hover:border-indigo-500 hover:text-gray-700 ">
               Add Customer <span className="pl-1"><BiUserPlus size={23}/></span>
             </button>
           </div>
@@ -62,7 +75,7 @@ export default function Home() {
           
         {/* Table */}
         <div className="container mx-auto">
-          <Table></Table>
+          <Table className="container_table"></Table>
         </div> 
         
       </main>

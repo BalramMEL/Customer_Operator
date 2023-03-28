@@ -12,7 +12,7 @@ export default function DropDownCheck() {
     return (
       <div className="dropdown flex w-auto items-center gap-3">
 
-        <h3>Drone Shot:</h3>
+        <h3 className="font-semibold">Drone Shot :</h3>
         <Dropdown className="flex w-auto" >
             <Dropdown.Button flat color="secondary" css={{ tt: "capitalize" }}>
                 {selectedValue}
