@@ -50,16 +50,16 @@ export default function AddUserForm({formData, setFormData}) {
 
 
             <div className="flex gap-10 item-center">
-                <label htmlFor="title ">Gender:</label>
+                <h3 className="title font-semibold">Gender :</h3>
                 <div className="form-check">
                     <input type="radio" onChange={setFormData} value="Male" id="radioDefault1" name="gender" className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300  bg-white checked:bg-green-500 checked:border-green-300 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center float-left mr-2 cursor-pointer " />
-                    <label htmlFor="radioDefault1" className="inline-block text-gray-800">
+                    <label htmlFor="radioDefault1" className="inline-block text-gray-800 ">
                         Male
                     </label>    
                 </div>
                 <div className="form-check">
                     <input type="radio" onChange={setFormData} value="Female" id="radioDefault2" name="gender" className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300  bg-white checked:bg-green-500 checked:border-green-300 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center float-left mr-2 cursor-pointer " />
-                    <label htmlFor="radioDefault2" className="inline-block text-gray-800">
+                    <label htmlFor="radioDefault2" className="inline-block text-gray-800 ">
                         Female
                     </label>    
                 </div>
@@ -70,7 +70,7 @@ export default function AddUserForm({formData, setFormData}) {
                 onChange={setFormData}                
             />      
 
-            <button className="flex justify-center text-md w-2/6 bg-green-500 text-white px-4 py-2 border rounded-md hover:bg-gray-50 hover:text-green-500 hover:border-green-500">
+            <button className=" flex justify-center text-md w-2/6 bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white px-4 py-3 rounded-md hover:bg-gray-50 hover:text-cyan-500 hover:border-cyan-500">
                 Add 
             </button>
         </form>
