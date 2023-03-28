@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"Balram Melkunde",
+        "avatar":"https://randomuser.me/api/portraits/men/75.jpg",
+        "email":"balrammep12@gmail.com",
+        "phone":"9832464636",
+        "gender":"Male",
+        "drone_shot":"tracking_shot"
+    },
+    {
+        "id":2,
+        "name":"Ghanashyam Melkunde",
+        "avatar":"https://randomuser.me/api/portraits/men/75.jpg",
+        "email":"ghana12@gmail.com",
+        "phone":"54464636",
+        "gender":"Male",
+        "drone_shot":"tracking_shot"
+    },
+    {
+        "id":3,
+        "name":"Sangita Melkunde",
+        "avatar":"https://randomuser.me/api/portraits/men/75.jpg",
+        "email":"sangita@gmail.com",
+        "phone":"7984464636",
+        "gender":"Female",
+        "drone_shot":"tracking_shot"
+    }
+]
