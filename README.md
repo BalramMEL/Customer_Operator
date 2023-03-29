@@ -1,3 +1,10 @@
+video preview link => https://drive.google.com/file/d/1p2-m8XkCQWLwkj4fK9I0Bkxk7ikZnaZU/view?usp=drivesdk
+
+[Screenshot](https://user-images.githubusercontent.com/102988461/228611211-dd64b315-ca59-4df6-9686-cc9417f5224c.png)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
